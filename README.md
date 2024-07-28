@@ -99,6 +99,10 @@
         tmux bind-key -n C-i if-shell "$is_vim" "send-keys C-i" "select-pane -U"
         tmux bind-key -n C-l if-shell "$is_vim" "send-keys C-l" "select-pane -R"
         ```
+* Sourcing tmux conf
+    * `tmux source-file ~/.tmux.conf`
+* Installing plugins
+    * `~/.tmux/plugins/tpm/bin/install_plugins`
 
 # Setup using a script
 * `sudo apt install curl`
